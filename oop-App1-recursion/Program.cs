@@ -27,7 +27,7 @@ namespace oop_App1_recursion
             }
 
             int sizeNumber = ArrayHelper.ReadNumber("The size of number of Fibonacci=", 3, 0);
-            Console.WriteLine($"Recursion String of Fibonacci= " + Fibonacci.FibonacciRecursive(0, 1, 1, sizeNumber));
+            Console.WriteLine($"Recursion String of Fibonacci= " + Fibonacci.FibonacciRec(0, 1, 1, sizeNumber));
             
 
         }
